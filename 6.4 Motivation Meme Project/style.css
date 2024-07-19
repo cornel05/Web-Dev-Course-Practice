@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    display: block;
+    margin: 8px;
+}
+
+#header {
+    margin: 33px 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#text {
+    margin: 16px 0;
+    color: white;
+    display: block;
+}
+
+#meme {
+    border: 5px solid white;
+    width: 100%;
+}
+
+#main {
+    text-align: center;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+}
