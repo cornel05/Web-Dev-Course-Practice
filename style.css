@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     line-height: 1.6;
     padding: 20px;
     background-color: #f4f4f4;
@@ -14,6 +14,7 @@ body {
 }
 
 h1 {
+    font-weight: 800;
     color: #333;
     margin-bottom: 20px;
 }
@@ -24,6 +25,7 @@ ul {
 }
 
 ul li {
+    font-weight: 600;
     background: #fff;
     margin: 10px 0;
     padding: 10px;
@@ -48,36 +50,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Theme Toggle Button Style */
-button {
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Theme Toggle Button Style */
-.theme-toggle-btn {
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
-}
-
-.theme-toggle-btn:hover {
-    background-color: #0056b3;
-}
 
 /* Responsive Design */
 @media (max-width: 600px) {
