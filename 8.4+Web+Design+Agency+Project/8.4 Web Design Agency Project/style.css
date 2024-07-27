@@ -41,6 +41,16 @@ footer {
 span {
   color: #004B84;
 }
+
+.tile-image {
+  opacity: 0.3;
+  transition: opacity 3s ease;
+}
+
+.tile-image:hover {
+  opacity: 1;
+}
+
 @media screen and (width <= 680px) {
   .card {
     display: block;
