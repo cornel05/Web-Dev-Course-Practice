@@ -17,8 +17,14 @@
     }
 
     .container {
+      display: inline-flex;
+      gap: 10px;
       padding: 10px;
       background-color: gold;
+    }
+
+    a {
+
     }
 
   </style>
@@ -35,6 +41,14 @@
     <li><a href="./flex.html">Flexbox</li>
 
   </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('a');
+      links.forEach(link => {
+        link.setAttribute('target', '_blank');
+      });
+    });
+  </script>
 </body>
 
 </html>
