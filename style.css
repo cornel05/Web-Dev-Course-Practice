@@ -26,17 +26,15 @@
 }
 
 body {
-    font-family: 'Mona Sans', sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-    background-color: #405D72;
-    color: #333;
+    font-family: 'Mona Sans', sans-serif !important;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 h1 {
     font-size: 6rem !important;
+    font-weight: 700 !important;
 }
 
 .main {
@@ -134,4 +132,9 @@ h1 {
 
 .custom-scroll::-webkit-scrollbar-thumb:hover {
     background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+/* Make animated introduction */
+.hidden {
+    visibility: hidden;
 }
